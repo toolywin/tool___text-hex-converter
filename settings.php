@@ -33,7 +33,7 @@ $tool_settings		:	Unchangable variable name
 ********************************/
 
 $tool_settings = [
-	'Version'     => '1.2.0',
+	'Version'     => '1.3.0',
 	'Name'        => __('Text & HEX Converter'),
 	'Description' => __('Simple, free, easy and powerful tool to convert between a string and hexadecimal, may enter a link, video or image to encode/decode; even you may do with the remote URLs or upload your own files, also download as well or share your friends directly with their own languages.'),
 	'Keyword'     => __('string to hexadecimal, string to hex, text to hex, text to hex converter, word to hexadecimal converter,word to hex converter, text to hexadecimal generator, text to hex online, plain text to hex converter, translate english to hexadecimal, convert file to hex, convert url to hex, decode video from hex, decode link from hex, hex code from url'),
@@ -54,8 +54,16 @@ $tool_settings = [
 	'Changelog' => [
 
 		'2023-01-18'	=> [
-			'v1.2.0',
+			'v1.3.0',
+			[
+				__('Added') => [
+					__('Top Google Searches'),
+				],
+			]
+		],
 
+		'2023-01-18'	=> [
+			'v1.2.0',
 			[
 				__('Added') => [
 					__('Live Mode'),
@@ -68,7 +76,6 @@ $tool_settings = [
 
 		'2022-12-27'	=> [
 			'v1.1.0',
-
 			[
 				__('Added') => [
 					__('Link to GitHub'),
